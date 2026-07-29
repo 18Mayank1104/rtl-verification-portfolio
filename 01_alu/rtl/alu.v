@@ -1,7 +1,7 @@
-// ============================================================
+ 
 // 8-bit ALU
 // Combinational ALU supporting arithmetic, logic and shift ops
-// ============================================================
+
 module alu #(
     parameter WIDTH = 8
 )(
