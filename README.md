@@ -13,9 +13,10 @@ folder is self-contained with its own RTL, testbench, and README.
 | 03 | [SPI Master/Slave](./03_spi) | ✅ 5/5 tests passing |
 | 04 | [Synchronous FIFO](./04_sync_fifo) | ✅ 24/24 tests passing |
 | 05 | [Asynchronous FIFO (dual clock, Gray-code CDC)](./05_async_fifo) | ✅ 40/40 tests passing |
+| 06 | [APB Slave](./06_apb_slave) | ✅ 11/11 tests passing |
 
-More modules (APB Slave, AXI4-Lite Slave, RISC-V Register File) coming
-next as this portfolio grows.
+More modules (AXI4-Lite Slave, RISC-V Register File) coming next as
+this portfolio grows.
 
 ## Tools
 - Icarus Verilog (`iverilog`/`vvp`) for compilation and simulation
