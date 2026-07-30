@@ -15,8 +15,9 @@ folder is self-contained with its own RTL, testbench, and README.
 | 05 | [Asynchronous FIFO (dual clock, Gray-code CDC)](./05_async_fifo) | ✅ 40/40 tests passing |
 | 06 | [APB Slave](./06_apb_slave) | ✅ 11/11 tests passing |
 | 07 | [AXI4-Lite Slave](./07_axi4lite_slave) | ✅ 13/13 tests passing |
+| 08 | [RISC-V RV32I Register File](./08_riscv_regfile) | ✅ 37/37 tests passing |
 
-More modules (RISC-V Register File) coming next as this portfolio grows.
+Next up: RISC-V Instruction Decoder.
 
 ## Tools
 - Icarus Verilog (`iverilog`/`vvp`) for compilation and simulation
