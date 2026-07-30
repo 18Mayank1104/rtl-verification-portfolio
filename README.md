@@ -11,9 +11,11 @@ folder is self-contained with its own RTL, testbench, and README.
 | 01 | [8-bit ALU](./01_alu) | ✅ 11/11 tests passing |
 | 02 | [UART Controller (TX/RX)](./02_uart) | ✅ 5/5 tests passing |
 | 03 | [SPI Master/Slave](./03_spi) | ✅ 5/5 tests passing |
+| 04 | [Synchronous FIFO](./04_sync_fifo) | ✅ 24/24 tests passing |
+| 05 | [Asynchronous FIFO (dual clock, Gray-code CDC)](./05_async_fifo) | ✅ 40/40 tests passing |
 
-More modules (Synchronous/Asynchronous FIFO, APB Slave, AXI4-Lite Slave,
-RISC-V Register File) coming next as this portfolio grows.
+More modules (APB Slave, AXI4-Lite Slave, RISC-V Register File) coming
+next as this portfolio grows.
 
 ## Tools
 - Icarus Verilog (`iverilog`/`vvp`) for compilation and simulation
