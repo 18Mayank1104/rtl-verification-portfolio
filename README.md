@@ -14,9 +14,9 @@ folder is self-contained with its own RTL, testbench, and README.
 | 04 | [Synchronous FIFO](./04_sync_fifo) | ✅ 24/24 tests passing |
 | 05 | [Asynchronous FIFO (dual clock, Gray-code CDC)](./05_async_fifo) | ✅ 40/40 tests passing |
 | 06 | [APB Slave](./06_apb_slave) | ✅ 11/11 tests passing |
+| 07 | [AXI4-Lite Slave](./07_axi4lite_slave) | ✅ 13/13 tests passing |
 
-More modules (AXI4-Lite Slave, RISC-V Register File) coming next as
-this portfolio grows.
+More modules (RISC-V Register File) coming next as this portfolio grows.
 
 ## Tools
 - Icarus Verilog (`iverilog`/`vvp`) for compilation and simulation
@@ -31,4 +31,4 @@ this portfolio grows.
 ```
 
 ## Author
-Mayank Chaudhary — B.Tech Final Year ECE, MANIT Bhopal
+Mayank Chaudhary — B.Tech ECE, MANIT Bhopal
