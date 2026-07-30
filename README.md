@@ -16,8 +16,9 @@ folder is self-contained with its own RTL, testbench, and README.
 | 06 | [APB Slave](./06_apb_slave) | ✅ 11/11 tests passing |
 | 07 | [AXI4-Lite Slave](./07_axi4lite_slave) | ✅ 13/13 tests passing |
 | 08 | [RISC-V RV32I Register File](./08_riscv_regfile) | ✅ 37/37 tests passing |
+| 09 | [RISC-V RV32I Instruction Decoder](./09_riscv_decoder) | ✅ 14/14 tests passing |
 
-Next up: RISC-V Instruction Decoder.
+Next up: RISC-V CSR block, then wiring toward a full datapath.
 
 ## Tools
 - Icarus Verilog (`iverilog`/`vvp`) for compilation and simulation
