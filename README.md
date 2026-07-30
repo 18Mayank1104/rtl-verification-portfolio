@@ -31,4 +31,4 @@ this portfolio grows.
 ```
 
 ## Author
-Mayank Chaudhary — B.Tech ECE, MANIT Bhopal
+Mayank Chaudhary — B.Tech Final Year ECE, MANIT Bhopal
