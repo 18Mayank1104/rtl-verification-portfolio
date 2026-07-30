@@ -19,11 +19,23 @@ folder is self-contained with its own RTL, testbench, and README.
 | 09 | [RISC-V RV32I Instruction Decoder](./09_riscv_decoder) | ✅ 14/14 tests passing |
 | 10 | [RISC-V CSR Block](./10_riscv_csr) | ✅ 9/9 tests passing |
 | 11 | [RV32I Single-Cycle Core](./11_riscv_core) | ✅ 23/23 tests passing |
+| 12 | [ALU — UVM Verification](./12_alu_uvm) | ⚠️ Needs Questa/VCS/Xcelium — see README |
+| 13 | [Synchronous FIFO — UVM Verification](./13_fifo_uvm) | ⚠️ Needs Questa/VCS/Xcelium — see README |
+| 14 | [APB Slave — UVM Verification](./14_apb_uvm) | ⚠️ Needs Questa/VCS/Xcelium — see README |
 
 Core RTL thread complete: register file → decoder → CSR block → full
-single-cycle core running a hand-assembled test program. Next up:
-UVM verification testbenches for a few of the earlier projects
-(ALU, FIFO, APB).
+single-cycle core running a hand-assembled test program.
+
+Projects 12-14 are real UVM 1.2/IEEE 1800.2 testbenches (transaction,
+sequence, driver, monitor, independent-reference-model scoreboard,
+functional coverage, agent/env/test) for the ALU, FIFO, and APB
+projects above. **Icarus Verilog cannot run the real UVM class
+library** (confirmed by directly testing the Accellera UVM source
+against it — a documented open-source-simulator limitation, not a bug
+in this code), so unlike every other project here, these aren't
+simulator-verified in this repo. Each one's README has exact steps to
+run and verify them for free on
+[EDA Playground](https://www.edaplayground.com/) (Questa/Xcelium).
 
 ## Tools
 - Icarus Verilog (`iverilog`/`vvp`) for compilation and simulation
