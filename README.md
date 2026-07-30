@@ -17,8 +17,13 @@ folder is self-contained with its own RTL, testbench, and README.
 | 07 | [AXI4-Lite Slave](./07_axi4lite_slave) | ✅ 13/13 tests passing |
 | 08 | [RISC-V RV32I Register File](./08_riscv_regfile) | ✅ 37/37 tests passing |
 | 09 | [RISC-V RV32I Instruction Decoder](./09_riscv_decoder) | ✅ 14/14 tests passing |
+| 10 | [RISC-V CSR Block](./10_riscv_csr) | ✅ 9/9 tests passing |
+| 11 | [RV32I Single-Cycle Core](./11_riscv_core) | ✅ 23/23 tests passing |
 
-Next up: RISC-V CSR block, then wiring toward a full datapath.
+Core RTL thread complete: register file → decoder → CSR block → full
+single-cycle core running a hand-assembled test program. Next up:
+UVM verification testbenches for a few of the earlier projects
+(ALU, FIFO, APB).
 
 ## Tools
 - Icarus Verilog (`iverilog`/`vvp`) for compilation and simulation
